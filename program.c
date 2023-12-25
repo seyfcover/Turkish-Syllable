@@ -29,7 +29,7 @@ int isVowel(char c)
 
 void hyphenate(char word [], char wordHyp[])
 {
-    int vowelcount; //sesli harf sayisini saklamak icin kullaniliyor.
+    int vowelcount = 0; //sesli harf sayisini saklamak icin kullaniliyor.
 
     for (int i = 0; i != strlen(word); i++) // sesli harfi saydirma islemi
     {
